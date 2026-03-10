@@ -25,7 +25,7 @@ int main()            // main function program ka starting point hota hai
     // User se current input liya aur variable me store kiya
 
     resistance = voltage / current;  
-    // Ohm's Law apply kiya: Resistance = Voltage ÷ Current
+    // Ohm's Law apply kiya: Resistance = Voltage Ã· Current
 
     // Calculated values display karna
     cout << "\nVoltage = " << voltage << " V";  
