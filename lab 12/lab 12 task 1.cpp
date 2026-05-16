@@ -1,0 +1,16 @@
+#include <iostream>      // input/output ke liye library
+using namespace std;     // standard namespace use kar rahe hain
+
+int main()
+{
+    int num = 10;        // ek integer variable banaya aur value di
+
+    int *ptr;            // pointer variable declare kiya (sirf address store karega)
+
+    ptr = &num;          // num ka address pointer ko assign kiya
+
+    cout << "num = " << num << endl;     // direct variable ki value print
+    cout << "*ptr = " << *ptr << endl;   // pointer se value print (dereference)
+
+    return 0;            // program end
+}
